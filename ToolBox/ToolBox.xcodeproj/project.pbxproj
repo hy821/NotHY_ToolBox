@@ -109,10 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				3B7D04621DFED80400EDD0B6 /* AppDelegate */,
+				3DC36ED61DFF831800D95BB1 /* MultiThread */,
 				3BD3B2571DFEDD2D00C8FFF9 /* ReactiveCocoa */,
-				3BD3B24E1DFED99E00C8FFF9 /* Category(扩展类) */,
-				3B7D04711DFED88D00EDD0B6 /* BaseCategory(基类) */,
-				3B7D04721DFED88D00EDD0B6 /* Control(控件) */,
+				3BD3B24E1DFED99E00C8FFF9 /* Category */,
+				3B7D04711DFED88D00EDD0B6 /* BaseCategory */,
+				3B7D04721DFED88D00EDD0B6 /* Control */,
 				3B7D04651DFED80400EDD0B6 /* Other */,
 				3B7D042B1DFED77500EDD0B6 /* Supporting Files */,
 			);
@@ -167,26 +168,29 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		3B7D04711DFED88D00EDD0B6 /* BaseCategory(基类) */ = {
+		3B7D04711DFED88D00EDD0B6 /* BaseCategory */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = BaseCategory;
 			path = "BaseCategory(基类)";
 			sourceTree = "<group>";
 		};
-		3B7D04721DFED88D00EDD0B6 /* Control(控件) */ = {
+		3B7D04721DFED88D00EDD0B6 /* Control */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = Control;
 			path = "Control(控件)";
 			sourceTree = "<group>";
 		};
-		3BD3B24E1DFED99E00C8FFF9 /* Category(扩展类) */ = {
+		3BD3B24E1DFED99E00C8FFF9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				3BD3B24F1DFEDA0500C8FFF9 /* NSObject+HyBaseObject.h */,
 				3BD3B2501DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m */,
 			);
+			name = Category;
 			path = "Category(扩展类)";
 			sourceTree = "<group>";
 		};
@@ -197,6 +201,13 @@
 				3BD3B2591DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m */,
 			);
 			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		3DC36ED61DFF831800D95BB1 /* MultiThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MultiThread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
