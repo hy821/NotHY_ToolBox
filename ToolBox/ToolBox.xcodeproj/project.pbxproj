@@ -18,6 +18,7 @@
 		3B7D04701DFED80400EDD0B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D046B1DFED80400EDD0B6 /* Info.plist */; };
 		3BD3B2511DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3B2501DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m */; };
 		3BD3B25A1DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3B2591DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m */; };
+		3D9F87C41DFF878800A79A8D /* MultiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F87C31DFF878800A79A8D /* MultiThreadViewController.m */; };
 		E26120C48E15B7616C660101 /* libPods-ToolBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 874B2B0A7FDD63141DCF6B34 /* libPods-ToolBox.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,8 @@
 		3BD3B2521DFEDADA00C8FFF9 /* Hy-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hy-PrefixHeader.pch"; sourceTree = "<group>"; };
 		3BD3B2581DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
 		3BD3B2591DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
+		3D9F87C21DFF878800A79A8D /* MultiThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadViewController.h; sourceTree = "<group>"; };
+		3D9F87C31DFF878800A79A8D /* MultiThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadViewController.m; sourceTree = "<group>"; };
 		40B4385C4AEE92ED22205EF5 /* Pods-ToolBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToolBox/Pods-ToolBox.release.xcconfig"; sourceTree = "<group>"; };
 		874B2B0A7FDD63141DCF6B34 /* libPods-ToolBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToolBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3591D32FBACA683EE4F6C31 /* Pods-ToolBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToolBox/Pods-ToolBox.debug.xcconfig"; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 		3DC36ED61DFF831800D95BB1 /* MultiThread */ = {
 			isa = PBXGroup;
 			children = (
+				3D9F87C21DFF878800A79A8D /* MultiThreadViewController.h */,
+				3D9F87C31DFF878800A79A8D /* MultiThreadViewController.m */,
 			);
 			path = MultiThread;
 			sourceTree = "<group>";
@@ -422,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BD3B2511DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m in Sources */,
+				3D9F87C41DFF878800A79A8D /* MultiThreadViewController.m in Sources */,
 				3B7D046C1DFED80400EDD0B6 /* AppDelegate.m in Sources */,
 				3B7D042D1DFED77500EDD0B6 /* main.m in Sources */,
 				3BD3B25A1DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m in Sources */,
