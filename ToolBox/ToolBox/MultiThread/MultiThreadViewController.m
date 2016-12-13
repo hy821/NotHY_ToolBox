@@ -31,10 +31,45 @@
     //    NSThread *thread=[[NSThread alloc]initWithTarget:self selector:@selector(loadImage) object:nil];
     //    //启动一个线程，注意启动一个线程并非就一定立即执行，而是处于就绪状态，当系统调度时才真正执行
     //    [thread start];
+    //SWIFT
+    // //创建
+    //let thread = NSThread(target: self, selector: "loadImage", object: nil)
+    //启动
+    // thread.start()
     
-    //方法2：使用类方法
+    
+    //方法2：使用类方法  创建并自动启动
     [NSThread detachNewThreadSelector:@selector(loadImage) toTarget:self withObject:nil];
+    //SWIFT
+    // NSThread.detachNewThreadSelector("loadImage", toTarget: self, withObject: nil)
 }
+
+/*    NSThread 方法
+ //取消线程
+ - (void)cancel;
+ 
+ //启动线程
+ - (void)start;
+ 
+ //判断某个线程的状态的属性
+ @property (readonly, getter=isExecuting) BOOL executing;
+ @property (readonly, getter=isFinished) BOOL finished;
+ @property (readonly, getter=isCancelled) BOOL cancelled;
+ 
+ //设置和获取线程名字
+ -(void)setName:(NSString *)n;
+ -(NSString *)name;
+ 
+ //获取当前线程信息
+ + (NSThread *)currentThread;
+ 
+ //获取主线程信息
+ + (NSThread *)mainThread;
+ 
+ //使当前线程暂停一段时间，或者暂停到某个时刻
+ + (void)sleepForTimeInterval:(NSTimeInterval)time;
+ + (void)sleepUntilDate:(NSDate *)date;
+ */
 
 - (void)loadImage{
     //请求数据
@@ -69,13 +104,13 @@
 //为了简化多线程开发过程，苹果官方对NSObject进行分类扩展(本质还是创建NSThread)，对于简单的多线程操作可以直接使用这些扩展方法。
 
 //在后台执行一个操作，本质就是重新创建一个线程执行当前方法。
--(void)performSelectorInBackground:(SEL)aSelector withObject:(id)arg;
+//-(void)performSelectorInBackground:(SEL)aSelector withObject:(id)arg;
 
 //在指定的线程上执行一个方法，需要用户创建一个线程对象。
--(void)performSelector:(SEL)aSelector onThread:(NSThread *)thr withObject:(id)arg waitUntilDone:(BOOL)wait;
+//-(void)performSelector:(SEL)aSelector onThread:(NSThread *)thr withObject:(id)arg waitUntilDone:(BOOL)wait;
 
 //在主线程上执行一个方法。
--(void)performSelectorOnMainThread:(SEL)aSelector withObject:(id)arg waitUntilDone:(BOOL)wait;
+//-(void)performSelectorOnMainThread:(SEL)aSelector withObject:(id)arg waitUntilDone:(BOOL)wait;
 
 
 #pragma mark - NSOperation

@@ -10,4 +10,6 @@
 
 @interface ReactiveCocoaViewController : UIViewController
 
+@property (nonatomic, strong) RACCommand *oneCommand;
+
 @end
