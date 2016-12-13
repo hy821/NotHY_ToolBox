@@ -1,0 +1,8 @@
+platform :ios, '7.0' 
+
+target ‘ToolBox’ do
+
+pod 'Masonry', '~> 0.6.4'
+pod 'ReactiveCocoa', '~> 2.5'
+
+end
