@@ -20,6 +20,10 @@
 		3D9F87CE1DFFF30300A79A8D /* loginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F87CD1DFFF30300A79A8D /* loginViewModel.m */; };
 		3D9F87D31DFFF3C600A79A8D /* Networker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F87D21DFFF3C600A79A8D /* Networker.m */; };
 		3D9F88141DFFF76900A79A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F88131DFFF76900A79A8D /* main.m */; };
+		3D9F88181E00DD4600A79A8D /* HeYangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F88171E00DD4600A79A8D /* HeYangViewController.m */; };
+		3D9F881E1E00EECB00A79A8D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F881D1E00EECB00A79A8D /* Person.m */; };
+		3D9F882C1E01421800A79A8D /* HYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F882B1E01421800A79A8D /* HYPerson.m */; };
+		3D9F88321E01439500A79A8D /* HYDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F88311E01439500A79A8D /* HYDog.m */; };
 		E26120C48E15B7616C660101 /* libPods-ToolBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 874B2B0A7FDD63141DCF6B34 /* libPods-ToolBox.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +71,16 @@
 		3D9F87D11DFFF3C600A79A8D /* Networker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networker.h; sourceTree = "<group>"; };
 		3D9F87D21DFFF3C600A79A8D /* Networker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Networker.m; sourceTree = "<group>"; };
 		3D9F88131DFFF76900A79A8D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D9F88161E00DD4600A79A8D /* HeYangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeYangViewController.h; sourceTree = "<group>"; };
+		3D9F88171E00DD4600A79A8D /* HeYangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeYangViewController.m; sourceTree = "<group>"; };
+		3D9F881A1E00DE4600A79A8D /* 目录.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "目录.h"; sourceTree = "<group>"; };
+		3D9F881C1E00EECB00A79A8D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3D9F881D1E00EECB00A79A8D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3D9F88261E0133EC00A79A8D /* BaseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseProtocol.h; sourceTree = "<group>"; };
+		3D9F882A1E01421800A79A8D /* HYPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPerson.h; sourceTree = "<group>"; };
+		3D9F882B1E01421800A79A8D /* HYPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPerson.m; sourceTree = "<group>"; };
+		3D9F88301E01439500A79A8D /* HYDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDog.h; sourceTree = "<group>"; };
+		3D9F88311E01439500A79A8D /* HYDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDog.m; sourceTree = "<group>"; };
 		40B4385C4AEE92ED22205EF5 /* Pods-ToolBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToolBox/Pods-ToolBox.release.xcconfig"; sourceTree = "<group>"; };
 		874B2B0A7FDD63141DCF6B34 /* libPods-ToolBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToolBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3591D32FBACA683EE4F6C31 /* Pods-ToolBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToolBox/Pods-ToolBox.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +145,8 @@
 		3B7D042A1DFED77500EDD0B6 /* ToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				3D9F88251E01337300A79A8D /* Protocol */,
+				3D9F88151E00DCDB00A79A8D /* 其他 */,
 				3B7D04621DFED80400EDD0B6 /* AppDelegate */,
 				3DC36ED61DFF831800D95BB1 /* MultiThread */,
 				3BD3B2571DFEDD2D00C8FFF9 /* ReactiveCocoa */,
@@ -180,6 +196,7 @@
 		3B7D04651DFED80400EDD0B6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				3D9F881F1E00EECE00A79A8D /* 不重要 */,
 				3D9F88131DFFF76900A79A8D /* main.m */,
 				3BD3B2521DFEDADA00C8FFF9 /* Hy-PrefixHeader.pch */,
 				3B7D04661DFED80400EDD0B6 /* Assets.xcassets */,
@@ -217,9 +234,9 @@
 		3BD3B2571DFEDD2D00C8FFF9 /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				3D9F87CA1DFFF18900A79A8D /* LoginVCWithRac */,
 				3BD3B2581DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.h */,
 				3BD3B2591DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m */,
-				3D9F87CA1DFFF18900A79A8D /* LoginVCWithRac */,
 			);
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
@@ -260,6 +277,38 @@
 				3D9F87D21DFFF3C600A79A8D /* Networker.m */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		3D9F88151E00DCDB00A79A8D /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F881A1E00DE4600A79A8D /* 目录.h */,
+				3D9F88161E00DD4600A79A8D /* HeYangViewController.h */,
+				3D9F88171E00DD4600A79A8D /* HeYangViewController.m */,
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		3D9F881F1E00EECE00A79A8D /* 不重要 */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F881C1E00EECB00A79A8D /* Person.h */,
+				3D9F881D1E00EECB00A79A8D /* Person.m */,
+			);
+			name = "不重要";
+			path = ../ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		3D9F88251E01337300A79A8D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F88261E0133EC00A79A8D /* BaseProtocol.h */,
+				3D9F882A1E01421800A79A8D /* HYPerson.h */,
+				3D9F882B1E01421800A79A8D /* HYPerson.m */,
+				3D9F88301E01439500A79A8D /* HYDog.h */,
+				3D9F88311E01439500A79A8D /* HYDog.m */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		3DC36ED61DFF831800D95BB1 /* MultiThread */ = {
@@ -467,10 +516,14 @@
 			files = (
 				3BD3B2511DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m in Sources */,
 				3D9F87CE1DFFF30300A79A8D /* loginViewModel.m in Sources */,
+				3D9F881E1E00EECB00A79A8D /* Person.m in Sources */,
 				3D9F87C41DFF878800A79A8D /* MultiThreadViewController.m in Sources */,
+				3D9F88181E00DD4600A79A8D /* HeYangViewController.m in Sources */,
 				3B7D046C1DFED80400EDD0B6 /* AppDelegate.m in Sources */,
 				3D9F87C81DFFF18600A79A8D /* RACLoginViewController.m in Sources */,
+				3D9F882C1E01421800A79A8D /* HYPerson.m in Sources */,
 				3BD3B25A1DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m in Sources */,
+				3D9F88321E01439500A79A8D /* HYDog.m in Sources */,
 				3D9F88141DFFF76900A79A8D /* main.m in Sources */,
 				3D9F87D31DFFF3C600A79A8D /* Networker.m in Sources */,
 			);

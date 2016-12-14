@@ -15,13 +15,19 @@
     if (self = [super init]) {
         RACSignal *userNameLengthSig = [RACObserve(self, userName)
                                         map:^id(NSString *value) {
-                                            if (value.length > 6) return @(YES);
-                                            return @(NO);
+                                            if (value.length > 6) {
+                                                return @(YES);
+                                            }else {
+                                                return @(NO);
+                                            }
                                         }];
         RACSignal *passwordLengthSig = [RACObserve(self, password)
                                         map:^id(NSString *value) {
-                                            if (value.length > 6) return @(YES);
-                                            return @(NO);
+                                            if (value.length > 6) {
+                                                return @(YES);
+                                            }else {
+                                                return @(NO);
+                                            }
                                         }];
         RACSignal *loginBtnEnable = [RACSignal combineLatest:@[userNameLengthSig, passwordLengthSig] reduce:^id(NSNumber *userName, NSNumber *password){
             return @([userName boolValue] && [password boolValue]);
