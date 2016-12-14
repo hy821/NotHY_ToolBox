@@ -15,7 +15,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *passwordTF;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *juhuaView;
-
 @property (strong, nonatomic) loginViewModel *viewModel;
 
 @end
