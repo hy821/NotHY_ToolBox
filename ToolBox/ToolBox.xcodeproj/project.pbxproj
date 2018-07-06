@@ -56,6 +56,7 @@
 		3B7D04641DFED80400EDD0B6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3B7D04661DFED80400EDD0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7D046B1DFED80400EDD0B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC4150E20EF3C9800627897 /* KVO&KVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVO&KVC.h"; sourceTree = "<group>"; };
 		3BD3B24F1DFEDA0500C8FFF9 /* NSObject+HyBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HyBaseObject.h"; sourceTree = "<group>"; };
 		3BD3B2501DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HyBaseObject.m"; sourceTree = "<group>"; };
 		3BD3B2521DFEDADA00C8FFF9 /* Hy-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hy-PrefixHeader.pch"; sourceTree = "<group>"; };
@@ -145,6 +146,7 @@
 		3B7D042A1DFED77500EDD0B6 /* ToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				3BC4150D20EF3C7D00627897 /* KVO&KVC */,
 				3D9F88251E01337300A79A8D /* Protocol */,
 				3D9F88151E00DCDB00A79A8D /* 其他 */,
 				3B7D04621DFED80400EDD0B6 /* AppDelegate */,
@@ -219,6 +221,14 @@
 			);
 			name = Control;
 			path = "Control(控件)";
+			sourceTree = "<group>";
+		};
+		3BC4150D20EF3C7D00627897 /* KVO&KVC */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4150E20EF3C9800627897 /* KVO&KVC.h */,
+			);
+			path = "KVO&KVC";
 			sourceTree = "<group>";
 		};
 		3BD3B24E1DFED99E00C8FFF9 /* Category */ = {
