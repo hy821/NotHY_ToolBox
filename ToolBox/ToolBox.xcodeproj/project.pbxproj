@@ -12,6 +12,8 @@
 		3B7D046C1DFED80400EDD0B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D04641DFED80400EDD0B6 /* AppDelegate.m */; };
 		3B7D046D1DFED80400EDD0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D04661DFED80400EDD0B6 /* Assets.xcassets */; };
 		3B7D04701DFED80400EDD0B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D046B1DFED80400EDD0B6 /* Info.plist */; };
+		3BC4151120EF454600627897 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4151020EF454500627897 /* NSObject+KVO.m */; };
+		3BC4151620EF5D2400627897 /* PGObservationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4151520EF5D2400627897 /* PGObservationInfo.m */; };
 		3BD3B2511DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3B2501DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m */; };
 		3BD3B25A1DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3B2591DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m */; };
 		3D9F87C41DFF878800A79A8D /* MultiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F87C31DFF878800A79A8D /* MultiThreadViewController.m */; };
@@ -57,6 +59,11 @@
 		3B7D04661DFED80400EDD0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7D046B1DFED80400EDD0B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC4150E20EF3C9800627897 /* KVO&KVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVO&KVC.h"; sourceTree = "<group>"; };
+		3BC4150F20EF454500627897 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		3BC4151020EF454500627897 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		3BC4151320EF5CAC00627897 /* Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
+		3BC4151420EF5D2400627897 /* PGObservationInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGObservationInfo.h; sourceTree = "<group>"; };
+		3BC4151520EF5D2400627897 /* PGObservationInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGObservationInfo.m; sourceTree = "<group>"; };
 		3BD3B24F1DFEDA0500C8FFF9 /* NSObject+HyBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HyBaseObject.h"; sourceTree = "<group>"; };
 		3BD3B2501DFEDA0500C8FFF9 /* NSObject+HyBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HyBaseObject.m"; sourceTree = "<group>"; };
 		3BD3B2521DFEDADA00C8FFF9 /* Hy-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hy-PrefixHeader.pch"; sourceTree = "<group>"; };
@@ -146,6 +153,7 @@
 		3B7D042A1DFED77500EDD0B6 /* ToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				3BC4151220EF5BC000627897 /* Interview(面试) */,
 				3BC4150D20EF3C7D00627897 /* KVO&KVC */,
 				3D9F88251E01337300A79A8D /* Protocol */,
 				3D9F88151E00DCDB00A79A8D /* 其他 */,
@@ -226,9 +234,21 @@
 		3BC4150D20EF3C7D00627897 /* KVO&KVC */ = {
 			isa = PBXGroup;
 			children = (
-				3BC4150E20EF3C9800627897 /* KVO&KVC.h */,
+				3BC4150F20EF454500627897 /* NSObject+KVO.h */,
+				3BC4151020EF454500627897 /* NSObject+KVO.m */,
+				3BC4151420EF5D2400627897 /* PGObservationInfo.h */,
+				3BC4151520EF5D2400627897 /* PGObservationInfo.m */,
 			);
 			path = "KVO&KVC";
+			sourceTree = "<group>";
+		};
+		3BC4151220EF5BC000627897 /* Interview(面试) */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4150E20EF3C9800627897 /* KVO&KVC.h */,
+				3BC4151320EF5CAC00627897 /* Runtime.h */,
+			);
+			path = "Interview(面试)";
 			sourceTree = "<group>";
 		};
 		3BD3B24E1DFED99E00C8FFF9 /* Category */ = {
@@ -530,6 +550,8 @@
 				3D9F87C41DFF878800A79A8D /* MultiThreadViewController.m in Sources */,
 				3D9F88181E00DD4600A79A8D /* HeYangViewController.m in Sources */,
 				3B7D046C1DFED80400EDD0B6 /* AppDelegate.m in Sources */,
+				3BC4151120EF454600627897 /* NSObject+KVO.m in Sources */,
+				3BC4151620EF5D2400627897 /* PGObservationInfo.m in Sources */,
 				3D9F87C81DFFF18600A79A8D /* RACLoginViewController.m in Sources */,
 				3D9F882C1E01421800A79A8D /* HYPerson.m in Sources */,
 				3BD3B25A1DFEDD2D00C8FFF9 /* ReactiveCocoaViewController.m in Sources */,
