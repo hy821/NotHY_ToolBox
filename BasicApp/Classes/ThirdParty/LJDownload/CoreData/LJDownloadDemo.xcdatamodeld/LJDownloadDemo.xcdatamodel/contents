@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G5019" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="LJCacheModel" representedClassName="LJCacheModel" syncable="YES">
+        <attribute name="albumId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="analyseUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cover" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detailUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="indexForEpisode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="intervalFileSize" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isEncrypted" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="labelIds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastSpeedTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastStateTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="localPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m3u8" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mediaId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resumeData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="secretInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tmpFileSize" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalFileSize" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoType" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LJCacheModel" positionX="-63" positionY="-18" width="128" height="510"/>
+    </elements>
+</model>
